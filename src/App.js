@@ -24,9 +24,9 @@ const FullStack = lazy(()=> import('./FullStack'))
 function App() {
   return (
     <div>
-      <div className="p-4">
+      <div className="p-4 flex flex-col">
 
-        <div className="h-[100vh]">
+        <div className="">
           {/* https://www.flaticon.com/ */}
           <Header />
           <Hero />

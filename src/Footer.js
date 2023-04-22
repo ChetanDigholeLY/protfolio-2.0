@@ -68,7 +68,7 @@ const Footer = () => {
 
           <textarea className='p-2'
             value={mail.message} onChange={setVal}
-            name="message" rows={4} cols={40} placeholder='Message' />
+            name="message" rows={4} cols={4} placeholder='Message' />
 
 
           <button className='bg-[#5c5c5c] text-white hover:bg-[#f5f5f5] hover:text-black transition duration-300' onClick={(e) => submitMail(e)}>Submit</button>
