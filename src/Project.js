@@ -30,7 +30,7 @@ const Project = () => {
 
             </div>
 
-            <a href='https://github.com/ChetanDighole target="_blank" rel="noopener noreferrer"'>
+            <a href='https://github.com/ChetanDighole' target="_blank" rel="noopener noreferrer">
                 <h1 className='font-sans underline underline-offset-2'>...more on github</h1>
             </a>
         </div>
