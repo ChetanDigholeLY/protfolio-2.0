@@ -30,8 +30,8 @@ const ReactProject = () => {
             <h1 className='font-[myFont] text-5xl font-medium'>Food Panda</h1>
             <p className='text-[#9E9E9E] text-xl text-center font-sans'>Food ordering application using react and redux toolKit.</p>
             <div className='flex justify-between items-center w-full'>
-              <a href='https://user-github-viewer.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
-              <a href='https://github.com/ChetanDighole/github-profile-data-for-ineuron' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
+              <a href='https://food-panda-react-redux-chetan-dighole.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
+              <a href='https://github.com/ChetanDighole/Food-Panda-using-react-reduxToolkit' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
             </div>
           </div>
         </div>
