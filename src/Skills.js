@@ -11,73 +11,101 @@ import express from './assets/express.png'
 import git from './assets/git.png'
 import tailwind from './assets/tailwind.png'
 import redux from './assets/redux.png'
+import nextjs from './assets/nextjs.svg'
+import django from './assets/brand-django.svg'
+import angular from './assets/angular.svg'
 
 const Skills = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-6'>
       <h1 className='font-[myFont] font-lg text-7xl'>SKILLS</h1>
 
-      <div className='grid grid-cols-4 justify-items-center w-full text-center gap-2'>
+      <div className='grid grid-cols-6 justify-evenly items-center w-full text-center gap-4'>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={html} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={html} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>HTML</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={css} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={css} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>CSS</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={javascript} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={javascript} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Javascript</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={bootstrap} className='w-12 h-12 sm:w-20 sm:h-20' />
-          <h4>Bootstrap</h4>
-        </div>
-
-        <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={tailwind} className='w-12 h-12 sm:w-20 sm:h-20' />
-          <h4>Tailwind CSS</h4>
-        </div>
-
-        <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={reactjs} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={reactjs} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>React.js</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={redux} className='w-12 h-12 sm:w-20 sm:h-20' />
-          <h4>Redux Toolkit</h4>
+          <img alt='img' src={angular} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Angular js</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={nodejs} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={nodejs} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Node.js</h4>
         </div>
 
+
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={express} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={express} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Express.js</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={mysql} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={nextjs} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Next JS</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={django} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Django</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={mysql} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>My SQL</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={mongodb} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={mongodb} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Mongo db</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={git} className='w-12 h-12 sm:w-20 sm:h-20' />
+          <img alt='img' src={bootstrap} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Bootstrap</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={tailwind} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Tailwind CSS</h4>
+        </div>
+
+
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={redux} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Redux Toolkit</h4>
+        </div>
+
+
+
+
+
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={git} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Git</h4>
         </div>
+
+
 
       </div>
     </div>

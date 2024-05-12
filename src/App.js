@@ -5,19 +5,18 @@ import Skills from "./Skills";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Project from "./Project";
 import Static from "./Static";
-// import Javascript from "./Javascript";
-// import ReactProject from "./ReactProject";
-// import FullStack from "./FullStack";
 import Certification from "./Certification";
 import Footer from "./Footer";
-import { lazy , Suspense } from "react";
+import { lazy, Suspense } from "react";
+import ProjectsTab from "./ProjectsTab";
+import Experience from "./Experience";
 
 //lazyLoading
-const Javascript = lazy(()=> import('./Javascript'))
+const Javascript = lazy(() => import('./Javascript'))
 
-const ReactProject = lazy(()=> import('./ReactProject'))
+const ReactProject = lazy(() => import('./ReactProject'))
 
-const FullStack = lazy(()=> import('./FullStack'))
+const FullStack = lazy(() => import('./FullStack'))
 
 
 
@@ -34,9 +33,13 @@ function App() {
 
         <Skills />
 
-        <RouterProvider router={appRoute} />
+        <Experience />
 
-        <Certification />
+        <ProjectsTab />
+
+        {/* <RouterProvider router={appRoute} /> */}
+
+        {/* <Certification /> */}
 
       </div>
       <Footer />
@@ -55,24 +58,24 @@ const appRoute = createBrowserRouter([
       },
       {
         path: 'project/javascript',
-        element: 
-        <Suspense fallback = {<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
-          <Javascript />
-        </Suspense>
+        element:
+          <Suspense fallback={<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
+            <Javascript />
+          </Suspense>
       },
       {
         path: 'project/react',
-        element: 
-        <Suspense fallback = {<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
-          <ReactProject />
-        </Suspense>
+        element:
+          <Suspense fallback={<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
+            <ReactProject />
+          </Suspense>
       },
       {
         path: 'project/fullstack',
-        element: 
-        <Suspense fallback = {<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
-          <FullStack />
-        </Suspense>
+        element:
+          <Suspense fallback={<h1 className="font-sans text-center text-2xl font-semibold">loading...</h1>}>
+            <FullStack />
+          </Suspense>
       },
     ]
   }
