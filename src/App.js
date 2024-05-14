@@ -39,7 +39,7 @@ function App() {
 
         {/* <RouterProvider router={appRoute} /> */}
 
-        {/* <Certification /> */}
+        <Certification />
 
       </div>
       <Footer />

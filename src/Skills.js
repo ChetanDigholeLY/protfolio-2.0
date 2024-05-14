@@ -14,13 +14,14 @@ import redux from './assets/redux.png'
 import nextjs from './assets/nextjs.svg'
 import django from './assets/brand-django.svg'
 import angular from './assets/angular.svg'
+import graphQL from './assets/GraphQL_Logo .svg'
 
 const Skills = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-6'>
       <h1 className='font-[myFont] font-lg text-7xl'>SKILLS</h1>
 
-      <div className='grid grid-cols-6 justify-evenly items-center w-full text-center gap-4'>
+      <div className='grid grid-cols-4 sm:grid-cols-6 justify-evenly items-center w-full text-center gap-4'>
 
         <div className='flex flex-col justify-center items-center'>
           <img alt='img' src={html} className='w-12 h-12 sm:w-16 sm:h-16' />
@@ -79,6 +80,16 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={graphQL} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>GraphQL</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={redux} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Redux Toolkit</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
           <img alt='img' src={bootstrap} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Bootstrap</h4>
         </div>
@@ -87,18 +98,6 @@ const Skills = () => {
           <img alt='img' src={tailwind} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Tailwind CSS</h4>
         </div>
-
-
-
-        <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={redux} className='w-12 h-12 sm:w-16 sm:h-16' />
-          <h4>Redux Toolkit</h4>
-        </div>
-
-
-
-
-
 
         <div className='flex flex-col justify-center items-center'>
           <img alt='img' src={git} className='w-12 h-12 sm:w-16 sm:h-16' />
