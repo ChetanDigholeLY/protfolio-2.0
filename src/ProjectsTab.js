@@ -29,7 +29,7 @@ function ProjectsTab() {
             </div>
 
             {/* static projects starts  */}
-            <div>Can't deploy clone websites as it violets company policies</div>
+            <div className='text-red-400'>Can't deploy clone websites as it violets company policies.</div>
             <div className={`${currentTab === 0 ? 'flex' : 'hidden'} items-start justify-around gap-2 flex-wrap w-full`}>
                 <div className='max-w-[300px]  border border-black'>
                     <div className='flex flex-col items-center gap-2 p-4'>
