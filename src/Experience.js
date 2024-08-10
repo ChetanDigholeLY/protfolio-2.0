@@ -18,9 +18,9 @@ function Experience() {
                 <div className='flex items-center'>
                     <div className='w-12 h-2 sm:w-16 sm:h-8'></div>
                     <ul className='list-disc'>
-                        <li>Developed a frontend application for the international shipping client Torm using the <span className='font-bold'>Angular.js</span> framework as the <span className='font-bold'>project owner</span>.</li>
-                        <li>Collaborated with <span className='font-bold'>Sony Liv</span> on the <span className='font-bold'>Asian Games</span> project, contributing to the development of web pages such as the medals page and match schedule page.</li>
-                        <li>Collaborated with India Shelter to enhance their loan application UI and addressed bugs using <span className='font-bold'>React.js</span>.</li>
+                        <li>Developed a frontend application for the international shipping client <span className='font-bold'>Torm</span> using the <span className='font-bold'>Angular.js</span> framework as the <span className='font-bold'>project owner</span>.</li>
+                        <li>Partnered with <span className='font-bold'>Sony Liv</span> on their <span className='font-bold'>UEFA Euro Cup</span> and <span className='font-bold'>Asian Games</span> events, creating and promptly updating key web pages like the medals and match schedule pages, and have been serving as a dedicated resource for all Sony Liv requirements from December 2023 to the present.</li>
+                        <li>Collaborated with <span className='font-bold'>India Shelter</span> to enhance their loan application process by utilizing <span className='font-bold'>React.js</span>.</li>
                         <li>Utilized the <span className='font-bold'>Django</span> framework to enhance <a className='font-medium underline underline-offset-1' rel="noopener noreferrer" target='_blank' href='https://www.lemonyellow.design/'>lemonyellow.design</a>, focusing on upgrading the user interface and backend functionality for a sleek and responsive site.</li>
                     </ul>
                 </div>
