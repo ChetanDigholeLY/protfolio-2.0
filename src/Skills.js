@@ -3,7 +3,6 @@ import html from './assets/html.png'
 import css from './assets/css.png'
 import javascript from './assets/javascript.png'
 import reactjs from './assets/reactjs.png'
-import mysql from './assets/mysql.png'
 import bootstrap from './assets/bootstrap.png'
 import nodejs from './assets/nodejs.png'
 import mongodb from './assets/mongodb.png'
@@ -15,6 +14,8 @@ import nextjs from './assets/nextjs.svg'
 import django from './assets/brand-django.svg'
 import angular from './assets/angular.svg'
 import graphQL from './assets/GraphQL_Logo .svg'
+import postgres from './assets/postgresql.svg'
+import docker from './assets/docker.svg'
 
 const Skills = () => {
   return (
@@ -70,13 +71,18 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-          <img alt='img' src={mysql} className='w-12 h-12 sm:w-16 sm:h-16' />
-          <h4>My SQL</h4>
+          <img alt='img' src={postgres} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Postgresql</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
           <img alt='img' src={mongodb} className='w-12 h-12 sm:w-16 sm:h-16' />
           <h4>Mongo db</h4>
+        </div>
+
+        <div className='flex flex-col justify-center items-center'>
+          <img alt='img' src={docker} className='w-12 h-12 sm:w-16 sm:h-16' />
+          <h4>Docker</h4>
         </div>
 
         <div className='flex flex-col justify-center items-center'>
