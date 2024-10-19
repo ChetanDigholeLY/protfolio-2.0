@@ -29,7 +29,7 @@ function ProjectsTab() {
             </div>
 
             {/* static projects starts  */}
-            <div className='text-red-400 text-center'>Can't deploy clone websites as it violets company policies.</div>
+            {/* <div className='text-red-400 text-center'>Can't deploy clone websites as it violets company policies.</div> */}
             <div className={`${currentTab === 0 ? 'flex' : 'hidden'} items-start justify-around gap-2 flex-wrap w-full`}>
                 <div className='max-w-[300px]  border border-black'>
                     <div className='flex flex-col items-center gap-2 p-4'>
@@ -38,8 +38,8 @@ function ProjectsTab() {
                         </div>
                         <h1 className='font-[myFont] text-5xl font-medium'>Rode.com clone</h1>
                         <p className='text-[#9E9E9E] text-xl text-center font-sans'>This clone is created using tailwind css.</p>
-                        <div className='flex justify-center items-center w-full'>
-                            {/* <a href='https://rode-clone-by-chetan-dighole.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a> */}
+                        <div className='flex justify-between items-center w-full'>
+                            <a href='https://musicwebsite1234.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
 
                             <a href='https://github.com/ChetanDighole/rode.com-clone' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
                         </div>
@@ -53,8 +53,8 @@ function ProjectsTab() {
                         </div>
                         <h1 className='font-[myFont] text-5xl font-medium'>Shopify.com clone</h1>
                         <p className='text-[#9E9E9E] text-xl text-center font-sans'>This clone is created using tailwind css.</p>
-                        <div className='flex justify-center items-center w-full'>
-                            {/* <a href='https://shopify-clone-by-chetan-dighole.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a> */}
+                        <div className='flex justify-between items-center w-full'>
+                            <a href='https://shoppingwebsite1234.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
                             <a href='https://github.com/ChetanDighole/shopify.com-clone' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
                         </div>
                     </div>
@@ -67,8 +67,8 @@ function ProjectsTab() {
                         </div>
                         <h1 className='font-[myFont] text-5xl font-medium'>Paytm.com clone</h1>
                         <p className='text-[#9E9E9E] text-xl text-center font-sans'>This clone is created using tailwind css.</p>
-                        <div className='flex justify-center items-center w-full'>
-                            {/* <a href='https://paytm-clone-by-chetan-dighole.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a> */}
+                        <div className='flex justify-between items-center w-full'>
+                            <a href='https://paymentclone1234.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
                             <a href='https://github.com/ChetanDighole/PayTM-clone' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
                         </div>
                     </div>
