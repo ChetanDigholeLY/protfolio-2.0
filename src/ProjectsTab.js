@@ -136,8 +136,8 @@ function ProjectsTab() {
                             </div>
                             <h1 className='font-[myFont] text-5xl font-medium'>YouTube Clone</h1>
                             <p className='text-[#9E9E9E] text-xl text-center font-sans'>YouTube clone using react and redux toolKit.</p>
-                            <div className='flex justify-center items-center w-full'>
-                                {/* <a href='https://youtube-clone-chetan-dighole.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a> */}
+                            <div className='flex justify-between items-center w-full'>
+                                <a href='https://videostreamingwebsiteclone.netlify.app/' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Live</a>
                                 <a href='https://github.com/ChetanDighole/youTube-clone-react-redux-toolkit' target="_blank" rel="noopener noreferrer" className='pointer-cursor font-sans underline underline-offset-2'>Source code</a>
                             </div>
                         </div>
